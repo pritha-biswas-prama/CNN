@@ -1,0 +1,23 @@
+{
+  "dataset": "AI-Lab-Makerere/beans",
+  "class_names": [
+    "angular_leaf_spot",
+    "bean_rust",
+    "healthy"
+  ],
+  "image_size": 128,
+  "batch_size": 32,
+  "epochs": 20,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "dropout": 0.3,
+  "seed": 42,
+  "optimizer": "Adam",
+  "loss": "CrossEntropyLoss",
+  "checkpoint_selection": "lowest validation loss",
+  "best_epoch": 19,
+  "best_validation_loss": 0.5005066487798118,
+  "test_loss": 0.4676285535097122,
+  "test_accuracy": 0.84375,
+  "pytorch_version": "2.11.0+cu130"
+}
